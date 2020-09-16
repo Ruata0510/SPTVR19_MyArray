@@ -14,7 +14,12 @@ import java.util.Random;
  */
 class App {
     public void run(){
-        System.out.println("=== Работа с массивами ===");
+        System.out.println("Задание: ");
+        System.out.println("Cоздайте массив из 20 случайных четных целых чисел. "
+                + "\nВычислите среднее арифметическое элементов массива без учета"
+                + "\nминимального и максимального элементов массива.");
+        System.out.println("Решение :");
+        System.out.println("Массив целых нечётных чисел: ");
         int myArr[] = new int[20];
         Random random = new Random();
         for (int i = 0; i < myArr.length; i++) {
